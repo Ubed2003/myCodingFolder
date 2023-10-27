@@ -1,0 +1,171 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+
+html{
+    font-size: 15px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem ;
+    font-family: 'Times New Roman', Times, serif    
+    }
+
+body{
+    min-height: 100vh;
+    background-size:cover ;
+    background-position: center;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0;right: 0;
+    background:#2b3a0b;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+header  .logo{
+  width: 80px;
+  margin-left: 200px;
+}
+
+header  .navbar ul{
+list-style: none;
+}
+
+header  .navbar ul li{
+    position: relative;
+    float: left;
+
+
+}
+
+
+header  .navbar ul li a{
+    font-size: 15px;
+    padding: 15px;
+    color: #d4bb4a;
+    display: block;
+    background-size: cover;
+
+
+}
+
+header  .navbar ul li a:hover{
+    background: #0c3b6f;
+    color: white;
+
+}
+
+header  .navbar ul li ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    width:200px ;
+    background: white;
+  
+
+}
+
+header  .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+
+}
+
+
+
+header  .navbar ul li:hover > ul{
+    display: initial;
+}
+
+header .icons #menu-bars,
+header .icons button {
+padding: 10px 25px;
+border: 1px solid #fafafa;
+background-color:#788c00;
+color:#e5e6e3;
+text-align: center;
+margin: 10px;
+margin-right: 60px;
+}
+
+
+
+header .icons #menu-bars:hover{
+    padding: 5px 5px;
+    background-color: var(--yellow);
+    color: #ffffff;
+}
+
+header .icons #menu-bars{
+display: none;
+}
+
+
+div .margin{
+    margin-right: 100px;
+ 
+}
+
+
+
+.main-image img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:100vh;
+
+}
+ .image{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+div .body-image{
+ 
+    width: 500px;
+    margin: 50px;
+}
+
+ .image-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+div .body-image-2{
+  height: 500px;
+  margin: 50px;
+  overflow: hidden;
+}
+
+div .body-text-2{
+    height: 300px;
+    text-align: center;
+
+ 
+    
+  }
+
+  p{
+    width:700px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+div  .flower {
+    width: 100vw;
+    background-size:cover ;
+    height: 70vh;
+
+  }
